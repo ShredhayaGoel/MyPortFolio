@@ -1,12 +1,15 @@
-import React from "react";
+import React from 'react';
+import Navbar from './components/navbar';
+import Hero from './components/hero';
+import About from './components/about';
 function App() {
   return (
-    <div >
-            <h1 class="text-3xl font-bold underline bg-orange-400">
-    Hello world!
-  </h1>
-      <p>This is a simple React application.</p>
-    </div>
+    <div> 
+      <Navbar /> 
+      <Hero /> 
+      <About />
+   </div>
   );
 }
+
 export default App;
